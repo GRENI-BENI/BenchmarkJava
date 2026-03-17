@@ -38,4 +38,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         # Використовуємо verify замість package, щоб прогнати тести і запустити сканер
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ВАШ_PROJECT_KEY_ВІД_SONARCLOUD
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=GRENI-BENI_BenchmarkJava
